@@ -28,21 +28,4 @@ public class ExampleInstrumentedTest {
 
         assertEquals("martin.broappen", appContext.getPackageName());
     }
-
-    @Test(expected = MalformedURLException.class)
-    public void testCreateBridgeChecker() throws Exception {
-        BridgeChecker bc = new BridgeChecker();
-    }
-
-    @Test(expected = IOException.class)
-    public void testRequestIsOpen1() throws Exception {
-        BridgeChecker bc = new BridgeChecker();
-        assertFalse(bc.requestIsOpen());
-    }
-
-    @Test(expected = JSONException.class)
-    public void testRequestIsOpen2() throws Exception {
-        BridgeChecker bc = new BridgeChecker();
-        assertTrue(bc.requestIsOpen());
-    }
 }
