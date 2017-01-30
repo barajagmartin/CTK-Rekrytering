@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Broappen</string>
+    <string name="labelChooseTime">"Välj en tid (tidigast 2014-05-19)"</string>
+    <string name="buttonSeeNow">Uppdatera</string>
+    <string name="error">Servern kunde inte nås</string>
+    <string name="secretKeyMissing">Privat nyckel saknas!</string>
 </resources>
