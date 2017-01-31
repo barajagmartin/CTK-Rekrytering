@@ -31,7 +31,7 @@ public class BridgeChecker {
     public boolean requestIsOpen() throws IOException, JSONException {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         String response;
-        boolean val = false;
+        boolean val = true;
         try {
             InputStream in = new BufferedInputStream(connection.getInputStream());
             response = read(in);
